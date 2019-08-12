@@ -1,8 +1,8 @@
 const router = require('express').Router();
 router.route('/')
-	.get((req,res,next)=>{
+	.post((req,res,next)=>{
 		req.app.io.sockets.emit("test","Connected Affirmative")
-		res.send({data: 'json'});
+		res.send(req.user);
 	})
 
 module.exports = router;
