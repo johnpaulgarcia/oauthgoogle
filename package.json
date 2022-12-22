@@ -14,7 +14,7 @@
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "google-auth-library": "^5.2.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "node-pg-migrate": "^3.21.1",
     "pg": "^7.12.1",
     "socket.io": "^2.2.0"
